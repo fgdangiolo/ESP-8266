@@ -4,14 +4,15 @@ from machine import Pin
 
 def main():
     led = Pin(2, Pin.OUT)
-    enabled = False
+
     while True:
-        if enabled:
-            led.off()
-        else:
-            led.on()
+
+        led.off()
         utime.sleep_ms(100)
-        enabled = not enabled
+
+        led.on()
+        utime.sleep_ms(100)
+
 
 
 if __name__ == '__main__':
