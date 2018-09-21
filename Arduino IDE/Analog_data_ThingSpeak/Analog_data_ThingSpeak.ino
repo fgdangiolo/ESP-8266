@@ -13,8 +13,9 @@
 char ssid[] = "";     //  your network SSID (name)
 char pass[] = "";    // your network password
 
-unsigned long myChannelNumber = 198868; 
-const char * myWriteAPIKey = "RZGB9E43F2BFJ0PN";
+unsigned long myChannelNumber = 2; //Change for your Channel Number
+ 
+const char * myWriteAPIKey = "";  // Change for your APIKey
   WiFiClient  client;
 
 
